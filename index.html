@@ -105,128 +105,121 @@
 </div>
 </section><!-- /About Section -->
 
-<!-- Team Section -->
+<style>
+  /* Hide all bios by default */
+  .student-bio {
+    display: none; 
+  }
+  
+  /* Class to display the bio when clicked, with a smooth fade-in */
+  .student-bio.active {
+    display: block;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+</style>
+
 <section class="team section" id="team">
-<!-- Section Title -->
-<div class="container section-title" data-aos="fade-up">
-<h2>Team</h2>
-</div><!-- End Section Title -->
-<div class="container">
-<div class="row gy-4">
-<div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
-  <div class="member">
-    <a href="#chris">
-      <img id="chris-pic" alt="Dr. Chris Butler" class="img-fluid" src="assets/img/team/team-1.jpg"/>
-    </a>
-    <div class="member-info">
-      <div class="member-info-content">
-        <h4>Dr. Chris Butler</h4>
-        <span>Instructional Associate Professor of Biology</span>
-      </div>
-    </div>
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Team</h2>
+  </div><div class="container">
+    <div class="row gy-4">
+      
+      <div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="member">
+          <a href="#chris" class="team-link">
+            <img id="chris-pic" alt="Dr. Chris Butler" class="img-fluid" src="assets/img/team/team-1.jpg"/>
+          </a>
+          <div class="member-info">
+            <div class="member-info-content">
+              <h4>Dr. Chris Butler</h4>
+              <span>Instructional Associate Professor of Biology</span>
+            </div>
+          </div>
+        </div>
+      </div><div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="member">
+          <a href="#tabitha" class="team-link">
+            <img id="tabitha-pic" alt="Tabitha Olsen" class="img-fluid" src="assets/img/team/Tabitha.jpg"/>
+          </a>
+          <div class="member-info">
+            <div class="member-info-content">
+              <h4>Tabitha Olsen</h4>
+              <span>PhD student - Ecology &amp; Evolutionary Biology</span>
+            </div>
+          </div>
+        </div>
+      </div><div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="member">
+          <a href="#trevor" class="team-link">
+            <img alt="Trevor Markwood" class="img-fluid" src="assets/img/team/team-3.jpg"/>
+          </a>
+          <div class="member-info">
+            <div class="member-info-content">
+              <h4>Trevor Markwood</h4>
+              <span>M.Sc. student - Biology</span>
+            </div>
+          </div>
+        </div>
+      </div><div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="member">
+          <a href="#aeris" class="team-link">
+            <img alt="Aeris Clarkson" class="img-fluid" src="assets/img/team/team-4.jpg"/>
+          </a>
+          <div class="member-info">
+            <div class="member-info-content">
+              <h4>Aeris Clarkson</h4>
+              <span>M.Sc Student - Biology</span>
+            </div>
+          </div>
+        </div>
+      </div><div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="member">
+          <a href="#truman" class="team-link">
+            <img alt="Truman Gilliam" class="img-fluid" src="assets/img/team/team-5.jpg"/>
+          </a>
+          <div class="member-info">
+            <div class="member-info-content">
+              <h4>Truman Gilliam</h4>
+              <span>Undergraduate Student - Animal Science</span>
+            </div>
+          </div>
+        </div>
+      </div><div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="member">
+          <a href="#emily" class="team-link">
+            <img alt="Emily Boling" class="img-fluid" src="assets/img/team/team-7.jpg"/>
+          </a>
+          <div class="member-info">
+            <div class="member-info-content">
+              <h4>Emily Boling</h4>
+              <span>Undergraduate Student - Ecology and Conservation Biology</span>
+            </div>
+          </div>
+        </div>
+      </div></div>
   </div>
-</div><!-- End Team Member -->
-  
-<div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
-  <div class="member">
-    <a href="#tabitha">
-      <img id="tabitha-pic" alt="Tabitha Olsen" class="img-fluid" src="assets/img/team/Tabitha.jpg"/>
-    </a>
-    <div class="member-info">
-      <div class="member-info-content">
-        <h4>Tabitha Olsen</h4>
-        <span>PhD student - Ecology &amp; Evolutionary Biology</span>
-      </div>
-    </div>
-  </div>
-</div><!-- End Team Member -->
-  <!-- Trevor Markwood -->
-<div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-  <div class="member">
-    <a href="#trevor">
-      <img alt="Trevor Markwood" class="img-fluid" src="assets/img/team/team-3.jpg"/>
-    </a>
-    <div class="member-info">
-      <div class="member-info-content">
-        <h4>Trevor Markwood</h4>
-        <span>M.Sc. student - Biology</span>
-      </div>
-    </div>
-  </div>
-</div><!-- End Team Member -->
-
-<!-- Aeris Clarkson -->
-<div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-  <div class="member">
-    <a href="#aeris">
-      <img alt="Aeris Clarkson" class="img-fluid" src="assets/img/team/team-4.jpg"/>
-    </a>
-    <div class="member-info">
-      <div class="member-info-content">
-        <h4>Aeris Clarkson</h4>
-        <span>Undergraduate Student - Zoology</span>
-      </div>
-    </div>
-  </div>
-</div><!-- End Team Member -->
-
-<!-- Truman Gilliam -->
-<div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
-  <div class="member">
-    <a href="#truman">
-      <img alt="Truman Gilliam" class="img-fluid" src="assets/img/team/team-5.jpg"/>
-    </a>
-    <div class="member-info">
-      <div class="member-info-content">
-        <h4>Truman Gilliam</h4>
-        <span>Undergraduate Student - Animal Science</span>
-      </div>
-    </div>
-  </div>
-</div><!-- End Team Member -->
-
-    <!-- Emily Boling -->
-<div class="col-xl-3 col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
-  <div class="member">
-    <a href="#emily">
-      <img alt="Emily Boling" class="img-fluid" src="assets/img/team/team-7.jpg"/>
-    </a>
-    <div class="member-info">
-      <div class="member-info-content">
-        <h4>Emily Boling</h4>
-        <span>Undergraduate Student - Ecology and Conservation Biology</span>
-      </div>
-    </div>
-  </div>
-</div><!-- End Team Member -->
-
-  
-</div>
-</div>
-</section><!-- /Team Section -->
-
-<section id="student-bios" class="section" style="margin-top: 60px;">
+</section><section id="student-bios" class="section" style="margin-top: 60px;">
   <div class="container">
-    <!-- Chris Butler -->
-<div id="chris" class="student-bio" style="margin-bottom: 40px;">
-  <h3><strong>Dr. Chris Butler</strong></h3>
-  <p>
-    Chris is the PI in the lab. He obtained his PhD in Zoology from Oxford and his B.Sc. in Natural Resources from Cornell University. His research is motivated by understanding how anthropogenic modification affects species diversity and phenology (the timing of biological phenomena). He is also particularly interested in the potential of emerging technologies to study the ecology of challenging species.
-  </p>
-  <p>
-    <strong>Contact:</strong><br>
-    <a href="mailto:chris.butler@tamu.edu">chris.butler@tamu.edu</a><br>
-    <a href="https://www.researchgate.net/profile/Chris-Butler-2" target="_blank">ResearchGate</a> |
-    <a href="https://orcid.org/0000-0003-2585-9041" target="_blank">ORCID</a>
-  </p>
-</div>
+    
+    <div id="chris" class="student-bio" style="margin-bottom: 40px;">
+      <h3><strong>Dr. Chris Butler</strong></h3>
+      <p>Chris is the PI in the lab. He obtained his PhD in Zoology from Oxford and his B.Sc. in Natural Resources from Cornell University. His research is motivated by understanding how anthropogenic modification affects species diversity and phenology (the timing of biological phenomena). He is also particularly interested in the potential of emerging technologies to study the ecology of challenging species.</p>
+      <p>
+        <strong>Contact:</strong><br>
+        <a href="mailto:chris.butler@tamu.edu">chris.butler@tamu.edu</a><br>
+        <a href="https://www.researchgate.net/profile/Chris-Butler-2" target="_blank">ResearchGate</a> |
+        <a href="https://orcid.org/0000-0003-2585-9041" target="_blank">ORCID</a>
+      </p>
+    </div>
 
-    <!-- Tabitha Olsen -->
     <div id="tabitha" class="student-bio" style="margin-bottom: 40px;">
       <h3><strong>Tabitha Olsen</strong></h3>
-      <p>
-        Tabitha Olsen is a PhD student who started in the Butler lab in early 2024. Her past work has focused on rail survey methodology, including optimization of the use of thermal imagery to detect Black Rails and Yellow Rails. Currently, she is interested in using fecal metabarcoding to explain community dynamics as it relates to diet with a focus on passerines. In her free time, she enjoys bird watching and recording nocturnal flight calls every chance she gets.
-      </p>
+      <p>Tabitha Olsen is a PhD student who started in the Butler lab in early 2024. Her past work has focused on rail survey methodology, including optimization of the use of thermal imagery to detect Black Rails and Yellow Rails. Currently, she is interested in using fecal metabarcoding to explain community dynamics as it relates to diet with a focus on passerines. In her free time, she enjoys bird watching and recording nocturnal flight calls every chance she gets.</p>
       <p>
         <strong>Contact:</strong><br>
         <a href="mailto:tolsen@tamu.edu">tolsen@tamu.edu</a><br>
@@ -236,66 +229,79 @@
       </p>
     </div>
 
-<!-- Trevor Markwood -->
-<div id="trevor" class="student-bio" style="margin-bottom: 40px;">
-  <h3><strong>Trevor Markwood</strong></h3>
-  <p>
-    Trevor is a Master’s student in Biology who joined the Butler Lab in 2024 after completing a Bachelor’s Degree in Environmental Biology/Zoology at Michigan State University. At Michigan State, Trevor worked with numerous avian research projects, including starting up a Sedge Wren Ecology Study at Corey Marsh Ecological Research Center. Currently, he is studying how the management of woody vegetation impacts Black Rail occupancy across the Gulf Coast.
-  </p>
-  <p>
-    <strong>Contact:</strong><br>
-    <a href="mailto:tmarkwood@tamu.edu">tmarkwood@tamu.edu</a><br>
-    <a href="https://www.researchgate.net/profile/Trevor-Markwood" target="_blank">ResearchGate</a> |
-    <a href="https://orcid.org/0009-0008-8046-1726" target="_blank">ORCID</a>
-  </p>
-</div>
+    <div id="trevor" class="student-bio" style="margin-bottom: 40px;">
+      <h3><strong>Trevor Markwood</strong></h3>
+      <p>Trevor is a Master’s student in Biology who joined the Butler Lab in 2024 after completing a Bachelor’s Degree in Environmental Biology/Zoology at Michigan State University. At Michigan State, Trevor worked with numerous avian research projects, including starting up a Sedge Wren Ecology Study at Corey Marsh Ecological Research Center. Currently, he is studying how the management of woody vegetation impacts Black Rail occupancy across the Gulf Coast.</p>
+      <p>
+        <strong>Contact:</strong><br>
+        <a href="mailto:tmarkwood@tamu.edu">tmarkwood@tamu.edu</a><br>
+        <a href="https://www.researchgate.net/profile/Trevor-Markwood" target="_blank">ResearchGate</a> |
+        <a href="https://orcid.org/0009-0008-8046-1726" target="_blank">ORCID</a>
+      </p>
+    </div>
 
-<!-- Aeris Clarkson -->
-<div id="aeris" class="student-bio" style="margin-bottom: 40px;">
-  <h3><strong>Aeris Clarkson</strong></h3>
-  <p>
-    Aeris is an undergraduate in the lab and will be starting her Master's in Fall 2025. Her research will focus on tracking wintering movements of American Oystercatchers along the Texas coast using satellite transmitters. She is passionate about birding and is interested in avian life histories and movement ecology.
-  </p>
-  <p>
-    <strong>Contact:</strong><br>
-    <a href="mailto:aerisclarkson@tamu.edu">aerisclarkson@tamu.edu</a><br>
-    <a href="https://www.researchgate.net/profile/Aeris-Clarkson" target="_blank">ResearchGate</a> |
-    <a href="https://orcid.org/0009-0004-6059-2041" target="_blank">ORCID</a> |
-    <a href="https://ebird.org/profile/MjAwODY4OQ/world" target="_blank">eBird</a>
-  </p>
-</div>
+    <div id="aeris" class="student-bio" style="margin-bottom: 40px;">
+      <h3><strong>Aeris Clarkson</strong></h3>
+      <p>Aeris starting her Master's in Fall 2025 after completing a Bachelor's Degree in Zoology at TAMU. Her research focus is on tracking wintering movements of American Oystercatchers along the Texas coast using satellite transmitters and investigating heavy metal contamination in this species. She is passionate about birding and is interested in avian life histories and movement ecology.</p>
+      <p>
+        <strong>Contact:</strong><br>
+        <a href="mailto:aerisclarkson@tamu.edu">aerisclarkson@tamu.edu</a><br>
+        <a href="https://www.researchgate.net/profile/Aeris-Clarkson" target="_blank">ResearchGate</a> |
+        <a href="https://orcid.org/0009-0004-6059-2041" target="_blank">ORCID</a> |
+        <a href="https://ebird.org/profile/MjAwODY4OQ/world" target="_blank">eBird</a>
+      </p>
+    </div>
 
-<!-- Truman Gilliam -->
-<div id="truman" class="student-bio" style="margin-bottom: 40px;">
-  <h3><strong>Truman Gilliam</strong></h3>
-  <p>
-    Truman is an Animal Science undergraduate in the Butler lab focusing on geospatial analysis. He has developed models predicting the potential range of warthogs in North America and helped research the impact of woody vegetation on Black Rail occupancy on the Gulf Coast. His key interests include herpetofauna, GIS applications, and veterinary anatomy.</p>
-  <p>
-    <strong>Contact:</strong><br>
-    <a href="mailto:trumang@tamu.edu">trumang@tamu.edu</a><br>
-    <a href="https://www.researchgate.net/profile/Truman-Gilliam" target="_blank">ResearchGate</a> |
-    <a href="https://orcid.org/my-orcid?orcid=0009-0009-4809-5479" target="_blank">ORCID</a> |
-    <a href="https://ebird.org/profile/NDQ5NjA3NA" target="_blank">eBird</a>
-  </p>
-</div>
+    <div id="truman" class="student-bio" style="margin-bottom: 40px;">
+      <h3><strong>Truman Gilliam</strong></h3>
+      <p>Truman is an Animal Science undergraduate in the Butler lab focusing on geospatial analysis. He has developed models predicting the potential range of warthogs in North America and helped research the impact of woody vegetation on Black Rail occupancy on the Gulf Coast. His key interests include herpetofauna, GIS applications, and veterinary anatomy.</p>
+      <p>
+        <strong>Contact:</strong><br>
+        <a href="mailto:trumang@tamu.edu">trumang@tamu.edu</a><br>
+        <a href="https://www.researchgate.net/profile/Truman-Gilliam" target="_blank">ResearchGate</a> |
+        <a href="https://orcid.org/my-orcid?orcid=0009-0009-4809-5479" target="_blank">ORCID</a> |
+        <a href="https://ebird.org/profile/NDQ5NjA3NA" target="_blank">eBird</a>
+      </p>
+    </div>
 
-<!-- Emily Boling -->
-<div id="emily" class="student-bio" style="margin-bottom: 40px;">
-  <h3><strong>Emily Boling</strong></h3>
-  <p>
-    Emily Boling is an Ecology and Conservation Biology undergraduate in the Butler lab. She is currently working with Tabitha Olsen on multiple nocturnal flight call (NFC) projects that each focus on expanding our knowledge of Texas species of conservation concern while also improving current acoustic designs to maximize passive NFC detection. Her interests include birding, natural history collections, and soundscape ecology.
-  </p>
-  <p>
-    <strong>Contact:</strong><br>
-    <a href="mailto:memboling0526124@tamu.edu">memboling0526124@tamu.edu</a><br>
-  </p>
-</div>
+    <div id="emily" class="student-bio" style="margin-bottom: 40px;">
+      <h3><strong>Emily Boling</strong></h3>
+      <p>Emily Boling is an Ecology and Conservation Biology undergraduate in the Butler lab. She is currently working with Tabitha Olsen on multiple nocturnal flight call (NFC) projects that each focus on expanding our knowledge of Texas species of conservation concern while also improving current acoustic designs to maximize passive NFC detection. Her interests include birding, natural history collections, and soundscape ecology.</p>
+      <p>
+        <strong>Contact:</strong><br>
+        <a href="mailto:memboling0526124@tamu.edu">memboling0526124@tamu.edu</a><br>
+      </p>
+    </div>
 
-    
   </div>
+</section>
 
-  </section>
-  
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    // Select all the anchor tags inside the team members
+    const teamLinks = document.querySelectorAll('.team-link');
+    const bios = document.querySelectorAll('.student-bio');
+
+    teamLinks.forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault(); // Stop the page from instantly jumping
+
+        // Hide all bios
+        bios.forEach(bio => bio.classList.remove('active'));
+
+        // Get the ID of the clicked bio (e.g., "#chris")
+        const targetId = this.getAttribute('href');
+        const targetBio = document.querySelector(targetId);
+
+        // Show the targeted bio and scroll to it smoothly
+        if (targetBio) {
+          targetBio.classList.add('active');
+          targetBio.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+      });
+    });
+  });
+</script>  
   
 <!-- Publications Section -->
 <section class="publications section" id="publications">
